@@ -20,40 +20,43 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5Rs-dZ-NWB">
-                                    <size key="itemSize" width="150" height="200"/>
+                                    <size key="itemSize" width="308" height="377"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="trackListCell" id="Dtz-zL-id2" customClass="TrackListCollectionViewCell" customModule="TrackCollectionListApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                        <rect key="frame" x="53" y="0.0" width="308" height="377"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U4e-Ow-sq4">
-                                            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="308" height="377"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s82-Jb-nq4">
-                                                    <rect key="frame" x="15" y="8" width="120" height="150"/>
+                                                    <rect key="frame" x="14" y="8" width="280" height="280"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="280" id="FS6-6S-urd"/>
+                                                        <constraint firstAttribute="width" constant="280" id="d2x-cs-ouo"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-DM-kcK">
-                                                    <rect key="frame" x="15" y="165" width="120" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-DM-kcK">
+                                                    <rect key="frame" x="14" y="304" width="280" height="41"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="centerX" secondItem="U4e-Ow-sq4" secondAttribute="centerX" id="8Ls-J4-Esi"/>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="bottom" secondItem="U4e-Ow-sq4" secondAttribute="bottomMargin" id="FpC-1p-pkL"/>
-                                                <constraint firstItem="s82-Jb-nq4" firstAttribute="top" secondItem="U4e-Ow-sq4" secondAttribute="topMargin" id="GZy-CZ-pJo"/>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="leading" secondItem="s82-Jb-nq4" secondAttribute="leading" id="Q4N-Fg-msb"/>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="leading" secondItem="U4e-Ow-sq4" secondAttribute="leading" constant="15" id="ckN-tc-HWH"/>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="top" secondItem="s82-Jb-nq4" secondAttribute="bottom" constant="7" id="h5R-gL-b6p"/>
-                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="trailing" secondItem="s82-Jb-nq4" secondAttribute="trailing" id="lcJ-BE-de5"/>
+                                                <constraint firstAttribute="bottom" secondItem="dqe-DM-kcK" secondAttribute="bottom" constant="32" id="8Ff-w1-NG7"/>
+                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="top" secondItem="s82-Jb-nq4" secondAttribute="bottom" constant="16" id="DKe-G4-swA"/>
+                                                <constraint firstItem="s82-Jb-nq4" firstAttribute="leading" secondItem="U4e-Ow-sq4" secondAttribute="leading" constant="14" id="EVY-iZ-eY5"/>
+                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="centerX" secondItem="s82-Jb-nq4" secondAttribute="centerX" id="Pe0-pi-G40"/>
+                                                <constraint firstItem="s82-Jb-nq4" firstAttribute="top" secondItem="U4e-Ow-sq4" secondAttribute="topMargin" id="R7D-XK-DcL"/>
+                                                <constraint firstItem="dqe-DM-kcK" firstAttribute="centerX" secondItem="U4e-Ow-sq4" secondAttribute="centerX" id="X59-SH-3Xd"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="150" height="200"/>
+                                        <size key="customSize" width="308" height="377"/>
                                         <connections>
                                             <outlet property="trackImageView" destination="s82-Jb-nq4" id="Mmu-75-WLU"/>
                                             <outlet property="trackNameLabel" destination="dqe-DM-kcK" id="KZ7-fC-com"/>

@@ -17,13 +17,28 @@ var trackListArray: [TrackList] = {
     var firstTrack = TrackList()
     firstTrack.name = "Научи меня быть счастливым - Би-2"
     firstTrack.imageName = "Научи меня быть счастливым Би-2"
-    return [firstTrack]
     
     var secondTrack = TrackList()
-    firstTrack.name = "The Mandalorian - The Mandalorian OST"
-    firstTrack.imageName = "The Mandalorian - The Mandalorian OST"
+    secondTrack.name = "The Mandalorian - The Mandalorian OST"
+    secondTrack.imageName = "The Mandalorian - The Mandalorian OST"
     
-    return [firstTrack, secondTrack]
+    var thirdTrack = TrackList()
+    thirdTrack.name = "Life - Ludovico Einaudi"
+    thirdTrack.imageName = "Life - Ludovico Einaudi"
+    
+    var fourthTrack = TrackList()
+    fourthTrack.name = "bad boys - Bab Marley"
+    fourthTrack.imageName = "bad boys - Bab Marley"
+    
+    var fifthTrack = TrackList()
+    fifthTrack.name = "How I Roll (White Gangster Remix) - Savant"
+    fifthTrack.imageName = "How I Roll (White Gangster Remix) - Savant"
+    
+    var sixthTrack = TrackList()
+    sixthTrack.name = "TRAP - SHIT !!! - DMC SWAG AKA PATVO"
+    sixthTrack.imageName = "TRAP - SHIT !!! - DMC SWAG AKA PATVO"
+    
+    return [firstTrack, secondTrack, thirdTrack, fourthTrack, fifthTrack, sixthTrack]
 }()
 
 //"Научи меня быть счастливым - Би-2",
